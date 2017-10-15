@@ -45,7 +45,7 @@ function sendRequest(city, method) {
                         data.list[i].weather[0].description,
                         Math.round(data.list[i].temp.max - 273.15),
                         Math.round(data.list[i].temp.min - 273.15),
-                        data.list[i].speed
+                        Math.round((data.list[i].speed) * 10) / 10
                     ));
                     dayCounter++;
                 }

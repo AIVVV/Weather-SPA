@@ -1,0 +1,25 @@
+{
+  "name": "weather-spa",
+  "version": "1.0.0",
+  "description": "This is single page application which gets weather information for a city and shows it for next 5 days.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AIVVV/Weather-SPA.git"
+  },
+  "author": "Angel Ivanov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AIVVV/Weather-SPA/issues"
+  },
+  "homepage": "https://github.com/AIVVV/Weather-SPA#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "handlebars": "^4.0.10",
+    "jquery": "^3.2.1",
+    "material-design-lite": "^1.3.0"
+  }
+}

@@ -22,7 +22,7 @@ function Obj(dayName, icon, weather, maxTemp, minTemp, windSpeed) {
 //fucntion for send request and get data from API
 function sendRequest(city, method) {
     return new Promise(function(resolve, reject) {
-        url = "http://api.openweathermap.org/data/2.5/forecast/daily?q=" + city + "&appid=f631fd357c75163a46154773a513dd64";
+        url = "https://api.openweathermap.org/data/2.5/forecast/daily?q=" + city + "&appid=f631fd357c75163a46154773a513dd64";
         http.onload = function() {
             if (this.readyState === 4 && this.status === 200) {
                 dayCounter = 1;
